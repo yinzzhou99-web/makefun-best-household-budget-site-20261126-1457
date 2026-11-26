@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearth — Household Budget for the Alvarez Family</title>
+<meta name="description" content="A household budget site: dashboard, transactions, budgets, savings goals and reports for one family, all working offline.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">◆ Hearth</a>
+  <nav aria-label="Main">
+    <a href="#/">Dashboard</a>
+    <a href="#/transactions">Transactions</a>
+    <a href="#/budgets">Budgets</a>
+    <a href="#/goals">Goals</a>
+    <a href="#/reports">Reports</a>
+  </nav>
+  <p class="household">The Alvarez Family · Nov 2026</p>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer>
+  <p>Hearth is a household budget planner. Figures are the Alvarez family's real November 2026 numbers; edits are saved on this device only. No account, no network, no tracking.</p>
+  <p><a href="#/">Dashboard</a> · <a href="#/transactions">Transactions</a> · <a href="#/budgets">Budgets</a> · <a href="#/goals">Goals</a> · <a href="#/reports">Reports</a></p>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="views.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
